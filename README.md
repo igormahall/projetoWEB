@@ -37,3 +37,6 @@ digitar no index.html:
 Apertar Ctrl+S para aparecer no Browser
 
 5) CSS: Estilização e Layout (cascade style sheets)
+- Ex: h1{color:blue;font-size:32px;}
+    *{} -> todos os elementos
+- ".classe" -> muito utilizado para referenciar elementos dentro do titulo
