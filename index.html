@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Meu website</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <!--A parte do estilo viria nessa parte abaixo:-->
+    <style></style>
+</head>
+
+<body>
+<header>
+    <h1>Meu website</h1>
+    <nav>
+        <ol>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ol>
+    </nav>
+</header>
+
+<main>
+    <section id="sobre">
+        <h2>Sobre nós</h2>
+        <p>Sou dev dedicado no aprendizado de desenvolvimento WEB.</p>
+        <img src="https://institutocoelhoneto.org.br/wp-content/uploads/2022/06/travailleur-web-dev-612x408-1.jpg" alt="Imagem de web dev" width="200"/>
+    </section>
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Criação de sites</li>
+            <li>Consultoria técnica</li>
+            <li>Workshop e treinamentos</li>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form id="formulario-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required/>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required/>
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto" required>
+                <option value="" disabled selected>Escolha o assunto</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="suporte">Suporte Técnico</option>
+                <option value="parceria">Parceria</option>
+                <option value="outros">Outros</option>
+            </select>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+            <label class="checkbox-label">
+                <input type="checkbox" id="termos" name="termos" required/>
+                Aceito os <a href="#" style="color:#00bcd4; text-decoration: underline;">termos de uso</a>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p id="rodape">&copy;<span id="ano">2025</span>Exemplo HTML. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</main>
+</body>
+</html>
