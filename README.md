@@ -1,23 +1,25 @@
-21/05: Projeto WEB
+# Projeto WEB
 
-Sugestão cursos:
-- Harvard (edx - CS50)
-- MIT OpenCourseWare 
+- Sugestão cursos:
+  - Harvard (edx - CS50)
+  - MIT OpenCourseWare 
 
-1) Criar projeto vazio no WebStorm
+---
 
-2) Criar arquivos no projeto:
-- File > index.html
-- Stylesheet > styles.css
-- JavaScript file > scripts.js
+- Criar projeto vazio no WebStorm
+- Criar arquivos no projeto:
+  - File > index.html
+  - Stylesheet > styles.css
+  - JavaScript file > scripts.js
 
-3) index.html > Open in > Browser > Default
+- (botão direito) index.html > Open in > Browser > Default
 
-Colocar browser e webstorm lado a lado
+- Colocar browser e webstorm lado a lado
 (url: http://localhost:63342/projetoWEB/index.html?_ijt=6ev562oh12la0roa8380h2emr5&_ij_reload=RELOAD_ON_SAVE)
 
-4) Testar se ta funcionando:
+- Testar se ta funcionando:
 digitar no index.html:
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -33,10 +35,16 @@ digitar no index.html:
 <p> Aperte CTRL+S para aparecer</p>
 </body>
 </html>
+```
+- Apertar Ctrl+S para aparecer no Browser
 
-Apertar Ctrl+S para aparecer no Browser
-
-5) CSS: Estilização e Layout (cascade style sheets)
-- Ex: h1{color:blue;font-size:32px;}
-    *{} -> todos os elementos
+## CSS: Estilização e Layout (cascade style sheets)
+- Exemplos
+  - h1{color:blue;font-size:32px;}
+  - *{} -> todos os elementos
 - ".classe" -> muito utilizado para referenciar elementos dentro do titulo
+
+---
+
+** Dica durante a aula **
+https://htmlcolorcodes.com/
